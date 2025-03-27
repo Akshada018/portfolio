@@ -1,0 +1,27 @@
+.projects {
+    /* height: 100vh;
+    text-align: center;
+    background: #222;
+    color: white; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/images/background.png'); /* Use leading '/' */
+    background-size: cover;  /* Cover the entire section */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+  }
+  .project-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .project-card {
+    background: #444;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  

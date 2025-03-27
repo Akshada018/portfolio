@@ -1,0 +1,60 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #081e12;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: slideDown 1s ease-in-out; /* Apply animation */
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1.5s ease-in-out 0.5s forwards; /* Delay for smooth effect */
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: cyan;
+}
+
+/* Keyframe animations */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

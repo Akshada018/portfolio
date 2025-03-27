@@ -1,0 +1,17 @@
+.contact {
+    /* height: 100vh;
+    text-align: center;
+    background: #333;
+    color: white; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/images/background.png'); /* Use leading '/' */
+    background-size: cover;  /* Cover the entire section */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+  }
+  
